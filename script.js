@@ -28,7 +28,7 @@ function uploadAndIdentifyPlantID (){
     const similarImages = true;
     const details = 'common_names,url,description,taxonomy,rank,gbif_id,inaturalist_id,image,synonyms,edible_parts,watering,propagation_methods,treatment,cause'
     const language = 'en'
-    const apiUrlPlantID = `https://plant.id/api/v3/identification?details=${details}&language=${language}`;
+    const apiUrlPlantID = `https://plant.id/api/v3/`;
 
     // Make first API CALL with our base64Image
     axios.post (apiUrlPlantID, {

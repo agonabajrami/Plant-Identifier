@@ -1,0 +1,101 @@
+/* Global styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7f6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #85b187;
+  padding: 1rem 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #85b187;
+}
+
+/* Page wrapper */
+.plant-wrapper {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 20px;
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #496e4a;
+}
+
+/* Form styles */
+.plant-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 2rem;
+}
+
+.plant-form input[type="file"] {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 5px;
+  width: 250px;
+}
+
+.plant-form button {
+  padding: 0.6rem 1.2rem;
+  background-color: #85b187;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.plant-form button:hover {
+  background-color: #496e4a;
+}
+
+/* Image preview */
+#previewImage {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+/* Accordion styles */
+.accordion-button {
+  background-color: #e8f5e9;
+  color: #496e4a;
+  font-weight: bold;
+}
